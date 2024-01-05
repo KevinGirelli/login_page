@@ -1,0 +1,5 @@
+Pra rodar o programa:
+
+pra iniciar o servidor basta executar o arquivo: ( Turma251Application.kt )
+o front-end esta na pasta: ( frontEnd ) é só abrir o index.html
+boa sorte

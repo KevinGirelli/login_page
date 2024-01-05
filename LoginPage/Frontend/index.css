@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(img/background.jpg);
+  background-size: cover;
+}
+
+.form-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #0b103f;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.form-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1, a {
+  margin-top: 10px;
+}
+
+h1{
+  font-family: monospace;
+  font-weight: 300;
+  border-right: 4px solid;
+  width: 26ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(26),
+  bliking 0.45s infinite step-end;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+
+@keyframes bliking{
+  50%{
+    border-color: transparent;
+  }
+}
+
+a{
+  background: linear-gradient(to left,
+  #2c3eda, #7b86e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+}
